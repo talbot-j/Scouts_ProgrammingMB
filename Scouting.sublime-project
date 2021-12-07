@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.aux",
+				"*.out",
+				"*.pdf",
+				"*.gz"
+			],
+			"folder_exclude_patterns":
+			[
+				".git"
+			],
+			"name": "Programming MB",
+			"path": "."
+		}
+	]
+}

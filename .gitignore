@@ -1,0 +1,17 @@
+# Ignore build/build support files
+*.synctex.gz
+*.log
+*.aux
+*.nav
+*.snm
+*.toc
+*.out
+
+# Ignore dead code, modified image files and the every changing sublime workspace
+graveyard/
+*.xcf
+*.sublime-workspace
+
+# Ignore some dead slide files...
+ProgMB_SD/graveyard/
+ProgMB_SD/Feathergraphics/src/
