@@ -8,7 +8,7 @@
 pdfLatex SlideDeck_ProgrammingMB.tex
 
 :: copy result to parent directory.
-copy SlideDeck_ProgrammingMB.pdf ../
+copy SlideDeck_ProgrammingMB.pdf ..\
 
 :: clean up the build files...
 del *.aux *.log *.nav *.out *.snm *.toc 
