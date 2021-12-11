@@ -108,6 +108,19 @@
        }
     }
 %----------------------------------------------------------------------------------------------------------------------------------
+
+% add the feather to the background of the titlepage and the final page
+
+                  \newcommand{\4}
+   {
+                  \setbeamertemplate{background}
+      {
+                  \includegraphics[width=\paperwidth,height=\paperheight]{Feathergraphics/4}
+                  %\tikz[overlay] \fill[fill opacity=0.75,fill=white] (0,0) rectangle (-\paperwidth,\paperheight);
+                  \tikz[overlay] \fill[fill opacity=0.25,fill=white] (0,0) rectangle (-\paperwidth,\paperheight);
+       }
+    }
+%----------------------------------------------------------------------------------------------------------------------------------
   
 % use numbers instead of a picture for the references
 
