@@ -50,8 +50,8 @@ def button_equal():
     if mat == "exp":
         e.insert(0, f_num ** int(second_number))
 
-    if mat == "fact":
-        e.insert(0, cmath.log(f_num, int(second_number)))
+    #if mat == "fact":
+    #    e.insert(0, cmath.log(f_num, int(second_number)))
 
 
 
