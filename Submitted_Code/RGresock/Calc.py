@@ -97,6 +97,16 @@ def button_fact():
     mat = "fact"
     f_num = int(first_number)
     e.delete(0, END)
+    # factorial of 0 is 1, so initialize factorial to 1 to start
+    factorial = 1
+    # factorial is a recursive function, with a finite end which 
+    # we can accomplish using a for loop from 1 to the entered number...  
+    # i.e. 3! = 1*2*3
+    for i in range(1,f_num+1):
+        factorial = factorial * i
+    #print(f_num)
+    #print(factorial)
+    e.insert(0, str(factorial))
 
 # Define Buttons
 
